@@ -1,0 +1,59 @@
+@font-face 
+{
+	font-family: dos;
+	src: url("../../../fonts/dos.ttf");
+
+}
+html {
+	font-family: dos;
+	font-size:x-large;
+	color:white;
+}
+body {
+	margin:0; padding:0;
+}
+html, body 
+{
+	overflow-x: hidden;
+	background-color:rgb(66,66,231);
+	width:100%;
+	height:100%;
+}
+
+.tab {
+	padding:5px;
+}
+
+#console {
+	height: 90%;
+	overflow:auto;
+	border-top:1px solid black;
+	overflow-wrap: break-word;
+}
+
+#prompt-wrapper {
+	overflow: hidden;
+	white-space: nowrap;
+	border-top: 1px solid black;
+	position:relative;
+	bottom:0px;
+	width:100%;
+}
+
+#input {
+	width: 100%;
+	display: inline-block;
+	background-color: rgb(66,66,231);
+	outline: none;
+	border:0;
+	font-family: dos;
+	font-size:x-large;
+	color:white;
+	cursor: auto;
+	cursor: url(../assets/cursor.png);
+}
+
+#prompt {
+	display: inline-block;
+	padding:5px;
+}
